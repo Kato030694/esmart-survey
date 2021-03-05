@@ -1,0 +1,193 @@
+body {
+  /* padding: 0 10%; */
+  margin: 0 auto;
+  padding: 0 10%;
+  font-family: "Times New Roman", Times, serif;
+  /* background: blue; */
+  /* width: 80%; */
+}
+.content_top {
+  text-indent: 20px;
+  text-align: justify;
+}
+/* HEADER */
+.text-center {
+  font-weight: bold;
+  font-size: 22px;
+}
+.edit_img {
+  background-image: url(./img/Untitled.png);
+}
+.edit_header {
+  padding: 50px 10% 0 10%;
+}
+.content-header {
+  width: 80%;
+  margin: 0 auto;
+}
+/* FORM */
+.header_form {
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 20px;
+}
+/* FORM TABLE */
+.form_customer {
+  padding: 0 18% 0 18%;
+}
+.form_border {
+  border: 2px solid black;
+  padding: 20px 0 !important;
+  width: 80%;
+}
+.label_tct {
+  padding: 0 0 0 10px !important;
+  width: 18%;
+  font-weight: bold;
+}
+.fname_tct {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 0 !important;
+  width: 75%;
+}
+.label_dc {
+  padding: 0 0 0 10px !important;
+  width: 18%;
+  font-weight: bold;
+}
+.fname_dc {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 0 !important;
+  width: 75%;
+}
+.label_tkh {
+  padding: 0 0 0 10px !important;
+  width: 18%;
+  font-weight: bold;
+}
+.fname_tkh {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 0 !important;
+  width: 75%;
+}
+.label_sdt {
+  padding: 0 0 0 10px !important;
+  width: 18%;
+  font-weight: bold;
+}
+.fname_sdt {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 0 !important;
+  width: 75%;
+}
+.fname::placeholder {
+  color: black;
+}
+.header_form_1 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+
+  padding: 10px 0;
+}
+.border_form {
+  font-weight: bold;
+  padding: 0 !important;
+  text-indent: 0;
+}
+.another {
+  font-weight: bold;
+}
+/* Câu hỏi khảo sát */
+/* Câu 1 */
+/* .dich_vu{
+    margin-left: 10px;
+} */
+.cau_hoi {
+  padding: 5px 0;
+  margin: 0;
+}
+.another {
+  padding: 5px 0 0 0 !important;
+}
+.khao_sat {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+/* RATING SCALE */
+
+.rating {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* Câu 8 Rating Scale */
+.box {
+  width: 70%;
+  padding: 0 0 50px 0;
+  margin: 0 auto;
+}
+.rating {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #f00, #ff0, #0f0);
+}
+.rating input {
+  display: none;
+}
+.rating label {
+  display: block;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  border-right: 1px solid #000;
+  margin-bottom: 0;
+}
+.rating input[type="radio"]:hover ~ label,
+.rating input[type="radio"]:checked ~ label {
+  background: transparent;
+}
+
+.change_color{
+    color: #f7941d;
+}
+
+.hyper_link a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+}
+@media screen and (max-width: 1000px){
+    .box{
+        width: 90%
+    }
+}
+@media screen and (max-width: 750px){
+    .box{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1920px){
+    .box{
+        width: 70%;
+    }
+}

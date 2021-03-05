@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script defer src="./JS/brands.js"></script>
+    <script defer src="./JS/fontawesome.js"></script>
+    <script defer src="./JS/solid.js"></script>
+
+    <!--load all styles -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="edit_header">
+      <!-- <img class="edit_img text-center" src="./img/Untitled.png" width="900px" height="300px" style="margin: 0 50px"/> -->
+      <h5 class="text-center">
+        PHIẾU KHẢO SÁT DỊCH VỤ THUÊ VĂN PHÒNG CHIA SẺ LÀM VIỆC
+      </h5>
+      <div class="content-header">
+        <p class="content_top">
+          Lời đầu tiên thay mặt eSmart, Bộ phận Dịch vụ khách hàng gửi lời cảm
+          ơn đến Quý khách hàng đã tin tưởng sử dụng dịch vụ eSmart trong thời
+          gian vừa qua. Kính chúc Quý khách hàng sức khỏe, may mắn và thành
+          công.
+        </p>
+        <p class="content_top">
+          Với mong muốn ghi nhận và đánh giá về mức độ hài lòng của Quý khách
+          hàng cũng như mục tiêu không ngừng cải tiến chất lượng dịch vụ trong
+          thời gian tới, eSmart tiến hành cuộc khảo sát nhanh về dịch vụ văn
+          phòng chia sẻ theo nội dung dưới đây, rất mong nhận được sự góp ý của
+          Quý khách hàng.
+        </p>
+        <p class="content_top">
+          Mọi thông tin eSmart ghi nhận sẽ luôn được bảo mật. Xin chân thành cảm
+          ơn.!
+        </p>
+      </div>
+    </header>
+    <div class="form-container">
+      <form class="form_customer">
+        <!-- ADD THÔNG TIN KHÁCH HÀNG -->
+        <p class="header_form">PHẦN THÔNG TIN KHÁCH HÀNG</p>
+        <div class="form_border">
+          <label for="fname" class="edit_label label_tct"> Tên công ty:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            id="tencty"
+            name="fname"
+            placeholder=".........................................................................................................................................................................................................................................................."
+            required
+          /><br />
+          <label for="fname" class="edit_label label_dc"> Địa chỉ:</label>
+          <input
+            type="text"
+            class="fname_dc"
+            id="diachi"
+            name="fname"
+            placeholder="..........................................................................................................................................................................................................................................................."
+            required
+          /><br />
+          <label for="fname" class="edit_label label_tkh">
+            Tên Khách Hàng:</label
+          >
+          <input
+            type="text"
+            class="fname_tkh"
+            id="tenkhachhang"
+            name="fname"
+            placeholder="..........................................................................................................................................................................................................................................................."
+            required
+          /><br />
+          <label for="fname" class="edit_label label_sdt">
+            Số điện thoại:</label
+          >
+          <input
+            type="text"
+            class="fname_sdt"
+            id="sodt"
+            name="fname"
+            placeholder="..........................................................................................................................................................................................................................................................."
+            required
+          /><br />
+          <label for="fname" class="edit_label label_sdt"> Email:</label>
+          <input
+            type="email"
+            class="fname_sdt"
+            id="email"
+            name="fname"
+            placeholder="..........................................................................................................................................................................................................................................................."
+            required
+          /><br />
+        </div>
+        <!-- END ADD THÔNG TIN KHÁCH HÀNG -->
+        <!-- ADD CÂU HỎI KHẢO SÁT -->
+
+        <p class="header_form_1">CÂU HỎI KHẢO SÁT</p>
+        <!-- Câu 1 -->
+        <div class="cau_1 cau_hoi">
+          <p class="border_form">
+            Câu 1: Quý khách có cảm thấy hài lòng về dịch vụ văn phòng chia sẻ
+            của eSmart không?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox"
+            name="dich_vu"
+            value="rat hai long"
+          />
+          <label for="rat_hai_long" class="khao_sat">Rất hài lòng</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox"
+            name="dich_vu_1"
+            value="hai long"
+          />
+          <label for="hai_long" class="khao_sat">Hài lòng</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_2 single_checkbox"
+            name="dich_vu_2"
+            value="khong hai long"
+          />
+          <label for="khong_hai_long" class="khao_sat">Không hài lòng</label>
+          <br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- END Câu 1 -->
+        <!-- Câu 2 -->
+        <div class="cau_2 cau_hoi">
+          <p class="border_form">
+            Câu 2: Nhân viên Lễ tân thông báo bưu phẩm/bưu từ cho quy có
+            đúng thời hạn hay không?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox_1"
+            name="co"
+            value="co"
+          />
+          <label for="co" class="khao_sat">Có</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox_1"
+            name="khong"
+            value="khong"
+          />
+          <label for="khong" class="khao_sat">Không</label><br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- END câu 2 -->
+        <!-- Câu 3 -->
+        <div class="cau_3 cau_hoi">
+          <p class="border_form">
+            Câu 3: Trong thời gian sử dụng dịch vụ, Qúy công ty có dễ dàng liên
+            hệ với nhân viên để được hỗ trợ không?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox_2"
+            name="co_1"
+            value="co_1"
+          />
+          <label for="co" class="khao_sat">Có</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox_2"
+            name="khong_1"
+            value="khong_1"
+          />
+          <label for="khong" class="khao_sat">Không</label><br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- End câu 3 -->
+        <!-- Câu 4 -->
+        <div class="cau_3 cau_hoi">
+          <p class="border_form">
+            Câu 4: Thời gian kết nối và thời gian phản hồi từ nhân viên eSmart
+            có nhanh chóng không?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox_3"
+            name="co_2"
+            value="co_2"
+          />
+          <label for="co" class="khao_sat">Có</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox_3"
+            name="khong_2"
+            value="khong_2"
+          />
+          <label for="khong" class="khao_sat">Không</label><br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- END câu 4 -->
+        <!-- Câu 5 -->
+        <div class="cau_3 cau_hoi">
+          <p class="border_form">
+            Câu 5: Thông tin mà nhân viên phản hồi có chính xác hay không?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox_4"
+            name="co_3"
+            value="co_3"
+          />
+          <label for="co" class="khao_sat">Có</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox_4"
+            name="khong_3"
+            value="khong_3"
+          />
+          <label for="khong" class="khao_sat">Không</label><br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- END câu 5 -->
+        <!-- Câu 6 -->
+        <div class="cau_3 cau_hoi">
+          <p class="border_form">
+            Câu 6: Bạn có sẵn sàng giới thiệu dịch vụ của eSmart đến bạn bè,
+            đồng nghiệp… của mình để trải nghiệm không?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox_5"
+            name="co_4"
+            value="co_4"
+          />
+          <label for="co" class="khao_sat">Có</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox_5"
+            name="khong_4"
+            value="khong_4"
+          />
+          <label for="khong" class="khao_sat">Không</label><br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- END câu 6 -->
+        <!-- Câu 7 -->
+        <div class="cau_3 cau_hoi">
+          <p class="border_form">
+            Câu 7: eSmart cần thay đổi điều gì để cải thiện và nâng cao chất
+            lượng dịch vụ?
+          </p>
+          <input
+            type="checkbox"
+            class="dich_vu single_checkbox_6"
+            name="co_5"
+            value="co_5"
+          />
+          <label for="co" class="khao_sat">Có</label><br />
+          <input
+            type="checkbox"
+            class="dich_vu_1 single_checkbox_6"
+            name="khong_5"
+            value="khong_5"
+          />
+          <label for="khong" class="khao_sat">Không</label><br />
+          <label for="fname" class="another">Ý kiến khác:</label>
+          <input
+            type="text"
+            class="fname_tct"
+            name="fname"
+            placeholder="............................................................................................................................................................"
+          /><br />
+        </div>
+        <!-- END câu 7 -->
+        <!-- Câu 8 -->
+        <p class="border_form">
+          Câu 8: Nếu cho thang điểm từ 01 đến 10 để đánh giá chất lượng sản phẩm
+          và dịch vụ của eSmart thì Quý khách hàng sẽ cho bao nhiêu điểm?
+        </p>
+        <div class="box">
+          <div class="rating">
+            <input type="radio" name="rating" id="rate10" /><label for="rate10"
+              >10</label
+            >
+            <input type="radio" name="rating" id="rate9" /><label for="rate9"
+              >9</label
+            >
+            <input type="radio" name="rating" id="rate8" /><label for="rate8"
+              >8</label
+            >
+            <input type="radio" name="rating" id="rate7" /><label for="rate7"
+              >7</label
+            >
+            <input type="radio" name="rating" id="rate6" /><label for="rate6"
+              >6</label
+            >
+            <input type="radio" name="rating" id="rate5" /><label for="rate5"
+              >5</label
+            >
+            <input type="radio" name="rating" id="rate4" /><label for="rate4"
+              >4</label
+            >
+            <input type="radio" name="rating" id="rate3" /><label for="rate3"
+              >3</label
+            >
+            <input type="radio" name="rating" id="rate2" /><label for="rate2"
+              >2</label
+            >
+            <input type="radio" name="rating" id="rate1" /><label for="rate1"
+              >1</label
+            >
+          </div>
+        </div>
+        <!-- END câu 8 -->
+        <!-- END ADD CÂU HỎI KHẢO SÁT -->
+        <!-- THANK  -->
+        <p>
+          Lần nữa, eSmart xin chân thành cảm ơn Quý khách hàng đã dành thời gian
+          để đóng góp ý kiến cho cuộc khảo sát này. Nếu Quý khách hàng có bất kỳ
+          câu hỏi nào khác hoặc cần hỗ trợ về dịch vụ vui lòng liên hệ theo
+          thông tin:
+        </p>
+        <p>
+          <i class="fas fa-check-double change_color"></i> Nhân viên hỗ trợ:
+          <i>Ruby Nguyễn</i>
+        </p>
+        <p class="hyper_link">
+          <i class="fas fa-check-double change_color"></i> Số điện thoại:
+          <i>0949 502 444</i> - Email:
+          <a href="mailto:dichvukhachhang@esmart.vn"
+            >dichvukhachhang@esmart.vn</a
+          >
+        </p>
+        <!-- END THANk -->
+        <!-- SUBMIT FORM -->
+        <div class="wrapper-no4">
+          <button
+            class="button-bird submit"
+            onclick="document.location='https://www.esmart.vn'"
+          >
+            <p class="button-bird__text">SEND</p>
+            <svg
+              version="1.1"
+              class="feather"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 75 38"
+              style="enable-background: new 0 0 75 38"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  d="M20.8,31.6c3.1-0.7,2.9-2.3,2,1c9.1,4.4,20.4,3.7,29.1-0.8l0,0c0.7-2.1,1-3.9,1-3.9c0.6,0.8,0.8,1.7,1,2.9
+                    c4.1-2.3,7.6-5.3,10.2-8.3c0.4-2.2,0.4-4,0.4-4.1c0.6,0.4,0.9,1.2,1.2,2.1c4.5-6.1,5.4-11.2,3.7-13.5c1.1-2.6,1.6-5.4,1.2-7.7
+                    c-0.5,2.4-1.2,4.7-2.1,7.1c-5.8,11.5-16.9,21.9-30.3,25.3c13-4,23.6-14.4,29.1-25.6C62.8,9,55.6,16.5,44.7,20.7
+                    c2.1,0.7,3.5,1.1,3.5,1.6c-0.1,0.4-1.3,0.6-3.2,0.4c-7-0.9-7.1,1.2-16,1.5c1,1.3,2,2.5,3.1,3.6c-1.9-0.9-3.8-2.2-5.6-3.6
+                    c-0.9,0.1-10.3,4.9-22.6-12.3C5.9,17.7,11.8,26.9,20.8,31.6z"
+                />
+              </g>
+            </svg>
+            <span class="bird"></span>
+            <span class="bird--1"></span>
+            <span class="bird--2"></span>
+            <span class="bird--3"></span>
+            <span class="bird--4"></span>
+            <span class="bird--5"></span>
+            <span class="bird--6"></span>
+            <span class="bird--7"></span>
+            <span class="bird--8"></span>
+            <span class="bird--9"></span>
+            <span class="bird--10"></span>
+            <span class="bird--11"></span>
+            <span class="bird--12"></span>
+            <span class="bird--13"></span>
+            <span class="bird--14"></span>
+            <span class="bird--15"></span>
+            <span class="bird--16"></span>
+            <span class="bird--17"></span>
+            <span class="bird--18"></span>
+            <span class="bird--19"></span>
+            <span class="bird--20"></span>
+            <span class="bird--21"></span>
+            <span class="bird--22"></span>
+            <span class="bird--23"></span>
+            <span class="bird--24"></span>
+            <span class="bird--25"></span>
+            <span class="bird--26"></span>
+            <span class="bird--27"></span>
+            <span class="bird--28"></span>
+            <span class="bird--29"></span>
+            <span class="bird--30"></span>
+          </button>
+        </div>
+        <!-- END SUBMIT FORM -->
+      </form>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./index.js"></script>
+    <script src="./JS/button.js"></script>
+    <script src="./JS/app.js"></script>
+    <script>
+      $(".single_checkbox").on("change", function () {
+        if ($(".single_checkbox:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+      $(".single_checkbox_1").on("change", function () {
+        if ($(".single_checkbox_1:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+      $(".single_checkbox_2").on("change", function () {
+        if ($(".single_checkbox_2:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+      $(".single_checkbox_3").on("change", function () {
+        if ($(".single_checkbox_3:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+      $(".single_checkbox_4").on("change", function () {
+        if ($(".single_checkbox_4:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+      $(".single_checkbox_5").on("change", function () {
+        if ($(".single_checkbox_5:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+      $(".single_checkbox_6").on("change", function () {
+        if ($(".single_checkbox_6:checked").length > 1) {
+          this.checked = false;
+        }
+      });
+    </script>
+  </body>
+</html>
